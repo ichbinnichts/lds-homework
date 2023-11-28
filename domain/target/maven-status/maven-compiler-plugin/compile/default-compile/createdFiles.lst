@@ -1,4 +1,0 @@
-br\fai\lds\domain\user\UserModel.class
-br\fai\lds\domain\user\UserRole.class
-br\fai\lds\domain\dtos\AuthDto.class
-br\fai\lds\domain\dtos\LoginResponseDto.class

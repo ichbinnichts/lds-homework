@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba055ce5-2f58-49bd-a127-0cafa100bed0" name="Changes" comment="feat: implement jwt in backend">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend-spring/src/main/java/br/fai/lds/backendspring/restcontrollers/AuthRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/src/main/java/br/fai/lds/backendspring/restcontrollers/AuthRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend-spring/target/classes/br/fai/lds/backendspring/restcontrollers/AuthRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/target/classes/br/fai/lds/backendspring/restcontrollers/AuthRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-impl/src/main/java/br/fai/lds/frontendimpl/impl/RestApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-impl/src/main/java/br/fai/lds/frontendimpl/impl/RestApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-impl/target/classes/br/fai/lds/frontendimpl/impl/RestApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-impl/target/classes/br/fai/lds/frontendimpl/impl/RestApiController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/src/main/java/br/fai/lds/frontendspring/controllers/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/src/main/java/br/fai/lds/frontendspring/controllers/CommonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/src/main/resources/templates/common/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/src/main/resources/templates/common/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/src/main/resources/templates/common/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/src/main/resources/templates/common/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/src/main/resources/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/target/classes/br/fai/lds/frontendspring/controllers/CommonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/target/classes/br/fai/lds/frontendspring/controllers/CommonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/target/classes/templates/common/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/target/classes/templates/common/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/target/classes/templates/common/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/target/classes/templates/common/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/target/classes/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/target/classes/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-usecases/src/main/java/br/fai/lds/frontendusecases/port/RestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-usecases/src/main/java/br/fai/lds/frontendusecases/port/RestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend-usecases/target/classes/br/fai/lds/frontendusecases/port/RestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-usecases/target/classes/br/fai/lds/frontendusecases/port/RestService.class" afterDir="false" />
-    </list>
+    <list default="true" id="ba055ce5-2f58-49bd-a127-0cafa100bed0" name="Changes" comment="feat: finishi imlementation of jwt in frontend and add sql script and refactor some changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FrontendSpringApplication" />
+        <item itemvalue="Application.BackendSpringApplication" />
         <item itemvalue="Application.FrontendSpringApplication" />
         <item itemvalue="Application.BackendSpringApplication" />
       </list>

@@ -1,5 +1,0 @@
-br\fai\lds\backendusecases\auth\AuthUseCase.class
-br\fai\lds\backendusecases\port\UserRepository.class
-br\fai\lds\backendusecases\port\PassEncrypter.class
-br\fai\lds\backendusecases\user\FindUser.class
-br\fai\lds\backendusecases\port\JwtService.class
