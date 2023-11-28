@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html layout:decorate="~{layout}">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<div layout:fragment="body">
+    <h1>Login page</h1>
+
+
+    <form th:action="@{/auth/login}" method="post">
+        <input type="username" placeholder="Username" required="" th:name="username">
+        <input type="password" placeholder="Password" required="" th:name="password">
+
+        <button type="submit">Logar</button>
+    </form>
+
+
+</div>
+</body>
+</html>
