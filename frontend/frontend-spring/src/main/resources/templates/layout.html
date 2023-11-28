@@ -1,14 +1,46 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<html
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    .logout{
+        color: red;
+    }
+    .footer > p {
+        text-align: right;
+        color: lightblue;
+    }
+    .awful {
+        font-size: 7px;
+        color: gray;
+        text-align: right;
+    }
+</style>
 <body>
 <h1>Layout</h1>
+<header>
+    <div>
+        <a th:href="@{/}">Main page</a>
+        <br/>
+        <a class="logout" th:href="@{/logout}">Logout</a>
+    </div>
+</header>
+<hr/>
+
 <div layout:fragment="body"></div>
+<hr/>
+<footer class="footer">
+    <p>Made by Nathan Faria</p>
+    <div class="awful">
+        Very awful style, i know
+    </div>
+</footer>
+
+
 
 </body>
 </html>

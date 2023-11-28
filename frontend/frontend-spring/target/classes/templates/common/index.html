@@ -10,33 +10,12 @@
     <h1>My home page</h1>
 
     <a th:href="@{/login}">Login page</a>
-
-
-    <div sec:authorize="hasAnyRole('CLIENT', 'ADMIN')">
-        <h2>Jokes</h2>
-
-        <div id="jokeContainer">
-
-        </div>
-    </div>
+    <br/>
+    <a th:href="@{joke/page}">Jokes page</a>
 
 </div>
 <script>
-    function getJoke(){
-        $.get("https://api.chucknorris.io/jokes/random", function(data) {
-            var joke = data.value;
 
-            $("#jokeContainer").text(joke);
-        }).fail(function() {
-           console.error("Failed to fetch joke");
-        });
-    }
-
-    $(document).ready(function(){
-        getJoke();
-
-        setInterval(getJoke, 100000);
-    });
 </script>
 </body>
 </html>

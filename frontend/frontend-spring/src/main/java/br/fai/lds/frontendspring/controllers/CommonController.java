@@ -15,4 +15,8 @@ public class CommonController {
     public String getLoginPage() {
         return "/common/login";
     }
+    @GetMapping("/not-found")
+    public String getNotFoundPage() {
+        return "/common/not-found";
+    }
 }

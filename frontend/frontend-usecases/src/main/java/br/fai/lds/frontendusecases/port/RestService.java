@@ -18,5 +18,5 @@ public interface RestService <T>{
 
     UserModel postLogin(String resource, AuthDto user);
 
-    String getRoot(final String resource, Class<T> clazz);
+    String getRoot(final String resource);
 }

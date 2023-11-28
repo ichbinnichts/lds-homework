@@ -118,7 +118,7 @@ public class RestApiController<T> implements RestService<T> {
     }
 
     @Override
-    public String getRoot(String resourceRoot, Class<T> clazz) {
+    public String getRoot(String resourceRoot) {
         try {
             final RestTemplate restTemplate = new RestTemplate();
             final HttpEntity<String> httpEntity = new HttpEntity<>("");

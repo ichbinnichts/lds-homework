@@ -5,10 +5,7 @@ import br.fai.lds.domain.dtos.AuthDto;
 import br.fai.lds.domain.dtos.LoginResponseDto;
 import br.fai.lds.domain.user.UserModel;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/auth")
@@ -27,8 +24,8 @@ public class AuthRestController {
     //Login with jwt token
 
     @PostMapping("/login")
-    public ResponseEntity<LoginResponseDto> login(@RequestBody AuthDto authDto){
-
+    public ResponseEntity<LoginResponseDto> login(@RequestHeader("username")final String username, @RequestHeader("password")final String password){
+        AuthDto authDto = new AuthDto(username, password);
 
         UserModel userModel = authConfig.authUseCase().loginV2(authDto);
 
