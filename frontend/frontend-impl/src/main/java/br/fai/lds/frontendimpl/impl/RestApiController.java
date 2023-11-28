@@ -106,7 +106,7 @@ public class RestApiController<T> implements RestService<T> {
                 ObjectMapper obj = new ObjectMapper();
                 JsonNode rootNode = obj.readTree(responseEntity.getBody());
                 if(rootNode.has("username") && rootNode.has("password")){
-                    return new UserModel(rootNode.get("id").asInt(), rootNode.get("username").asText(), rootNode.get("password").asText(), UserRole.valueOf(rootNode.get("userRole").asText()));
+                    return new UserModel(rootNode.get("id").asInt(), rootNode.get("username").asText(), rootNode.get("password").asText(), UserRole.valueOf(rootNode.get("userRole").asText()), rootNode.get("token").asText());
                 }
             }
 

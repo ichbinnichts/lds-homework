@@ -1,5 +1,10 @@
+br\fai\lds\backendspring\passencrypter\PassEncrypterImpl.class
+br\fai\lds\backendspring\security\ApiSecurityConstants.class
+br\fai\lds\backendspring\configuration\AuthUseCaseConfig.class
+br\fai\lds\backendspring\jwtimpl\JwtServiceImpl.class
+br\fai\lds\backendspring\security\filter\SecurityFilter.class
 br\fai\lds\backendspring\BackendSpringApplication.class
+br\fai\lds\backendspring\security\SecurityConfig.class
 br\fai\lds\backendspring\restcontrollers\UserRestController.class
 br\fai\lds\backendspring\configuration\FindUserUseCaseConfig.class
-br\fai\lds\backendspring\configuration\AuthUseCaseConfig.class
 br\fai\lds\backendspring\restcontrollers\AuthRestController.class

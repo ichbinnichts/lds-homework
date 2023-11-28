@@ -10,4 +10,6 @@ public interface UserRepository {
     List<UserModel> findAllUsers();
 
     UserModel findUserByUsername(final String username);
+
+    UserModel login(String username, String password);
 }

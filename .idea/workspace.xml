@@ -4,7 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba055ce5-2f58-49bd-a127-0cafa100bed0" name="Changes" comment="" />
+    <list default="true" id="ba055ce5-2f58-49bd-a127-0cafa100bed0" name="Changes" comment="feat: add project front end and back end without jwt">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-impl/src/main/java/br/fai/lds/backendimpl/repository/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-impl/src/main/java/br/fai/lds/backendimpl/repository/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-impl/target/backend-impl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-impl/target/backend-impl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-impl/target/classes/br/fai/lds/backendimpl/repository/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-impl/target/classes/br/fai/lds/backendimpl/repository/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-impl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-impl/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-spring/src/main/java/br/fai/lds/backendspring/configuration/AuthUseCaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/src/main/java/br/fai/lds/backendspring/configuration/AuthUseCaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-spring/src/main/java/br/fai/lds/backendspring/restcontrollers/AuthRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/src/main/java/br/fai/lds/backendspring/restcontrollers/AuthRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-spring/target/backend-spring-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/target/backend-spring-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-spring/target/backend-spring-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/target/backend-spring-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-spring/target/classes/br/fai/lds/backendspring/configuration/AuthUseCaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/target/classes/br/fai/lds/backendspring/configuration/AuthUseCaseConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-spring/target/classes/br/fai/lds/backendspring/restcontrollers/AuthRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/target/classes/br/fai/lds/backendspring/restcontrollers/AuthRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-spring/target/surefire-reports/TEST-br.fai.lds.backendspring.BackendSpringApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/target/surefire-reports/TEST-br.fai.lds.backendspring.BackendSpringApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-spring/target/surefire-reports/br.fai.lds.backendspring.BackendSpringApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-spring/target/surefire-reports/br.fai.lds.backendspring.BackendSpringApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-usecases/src/main/java/br/fai/lds/backendusecases/auth/AuthUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-usecases/src/main/java/br/fai/lds/backendusecases/auth/AuthUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-usecases/src/main/java/br/fai/lds/backendusecases/port/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-usecases/src/main/java/br/fai/lds/backendusecases/port/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-usecases/target/backend-usecases-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-usecases/target/backend-usecases-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-usecases/target/classes/br/fai/lds/backendusecases/auth/AuthUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-usecases/target/classes/br/fai/lds/backendusecases/auth/AuthUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-usecases/target/classes/br/fai/lds/backendusecases/port/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-usecases/target/classes/br/fai/lds/backendusecases/port/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-usecases/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-usecases/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-usecases/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-usecases/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend-usecases/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend-usecases/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/br/fai/lds/domain/user/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/br/fai/lds/domain/user/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/br/fai/lds/domain/user/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/br/fai/lds/domain/user/UserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend-impl/src/main/java/br/fai/lds/frontendimpl/impl/RestApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-impl/src/main/java/br/fai/lds/frontendimpl/impl/RestApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend-impl/target/classes/br/fai/lds/frontendimpl/impl/RestApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-impl/target/classes/br/fai/lds/frontendimpl/impl/RestApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend-impl/target/frontend-impl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-impl/target/frontend-impl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend-impl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-impl/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/target/frontend-spring-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/target/frontend-spring-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/target/frontend-spring-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/target/frontend-spring-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/target/surefire-reports/TEST-br.fai.lds.frontendspring.FrontendSpringApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/target/surefire-reports/TEST-br.fai.lds.frontendspring.FrontendSpringApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend-spring/target/surefire-reports/br.fai.lds.frontendspring.FrontendSpringApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-spring/target/surefire-reports/br.fai.lds.frontendspring.FrontendSpringApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend-usecases/target/frontend-usecases-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-usecases/target/frontend-usecases-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend-usecases/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-usecases/target/maven-archiver/pom.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +63,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2YnzDZl01QbjWx05rPAHV2xdzBM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +84,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -41,7 +95,7 @@
       <recent name="C:\Dev\Java\lds-homework\frontend\frontend-spring\src\main\resources\templates\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FrontendSpringApplication">
+  <component name="RunManager" selected="Application.BackendSpringApplication">
     <configuration name="BackendSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.fai.lds.backendspring.BackendSpringApplication" />
       <module name="backend-spring" />
@@ -70,8 +124,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FrontendSpringApplication" />
         <item itemvalue="Application.BackendSpringApplication" />
+        <item itemvalue="Application.FrontendSpringApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -84,6 +138,85 @@
       <option name="presentableId" value="Default" />
       <updated>1701176028523</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: add project front end and back end without jwt">
+      <created>1701179131234</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701179131234</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add project front end and back end without jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add project front end and back end without jwt" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/backend-spring/src/main/java/br/fai/lds/backendspring/restcontrollers/AuthRestController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/backend-spring/src/main/java/br/fai/lds/backendspring/restcontrollers/AuthRestController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/backend-usecases/src/main/java/br/fai/lds/backendusecases/auth/AuthUseCase.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/backend-usecases/src/main/java/br/fai/lds/backendusecases/auth/AuthUseCase.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/backend-usecases/src/main/java/br/fai/lds/backendusecases/auth/AuthUseCase.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/backend-usecases/src/main/java/br/fai/lds/backendusecases/auth/AuthUseCase.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/backend-impl/src/main/java/br/fai/lds/backendimpl/repository/UserDao.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/backend-impl/src/main/java/br/fai/lds/backendimpl/repository/UserDao.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/backend-impl/src/main/java/br/fai/lds/backendimpl/repository/UserDao.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/backend-spring/src/main/java/br/fai/lds/backendspring/restcontrollers/AuthRestController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

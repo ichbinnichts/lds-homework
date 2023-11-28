@@ -13,4 +13,6 @@ public class UserModel {
     private String password;
 
     private UserRole userRole;
+
+    private String token;
 }

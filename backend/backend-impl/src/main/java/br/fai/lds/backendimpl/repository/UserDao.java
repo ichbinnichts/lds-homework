@@ -8,6 +8,7 @@ import br.fai.lds.domain.user.UserRole;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -118,6 +119,45 @@ public class UserDao implements UserRepository {
 
             return user;
         } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Override
+    public UserModel login(String username, String password) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+
+        String sql = "SELECT * FROM usuario ";
+        sql += " WHERE ";
+        sql += " username = ? AND password = ? ;";
+
+        try {
+            connection = ConnectionFactory.getConnection();
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, username);
+            preparedStatement.setString(2, password);
+
+            resultSet = preparedStatement.executeQuery();
+
+            final UserModel userModel;
+            if (resultSet.next()) {
+                userModel = new UserModel();
+                userModel.setId(resultSet.getInt("id"));
+                userModel.setUsername(resultSet.getString("username"));
+                userModel.setUserRole(UserRole.valueOf(resultSet.getString("role")));
+
+
+            } else {
+                userModel = null;
+            }
+
+            resultSet.close();
+            preparedStatement.close();
+
+            return userModel;
+        } catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
