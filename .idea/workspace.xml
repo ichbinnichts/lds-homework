@@ -52,7 +52,7 @@
       <recent name="C:\Dev\Java\lds-homework\frontend\frontend-spring\src\main\resources\templates\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FrontendSpringApplication">
+  <component name="RunManager" selected="Application.BackendSpringApplication">
     <configuration name="BackendSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.fai.lds.backendspring.BackendSpringApplication" />
       <module name="backend-spring" />
@@ -81,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FrontendSpringApplication" />
         <item itemvalue="Application.BackendSpringApplication" />
+        <item itemvalue="Application.FrontendSpringApplication" />
         <item itemvalue="Application.FrontendSpringApplication" />
         <item itemvalue="Application.BackendSpringApplication" />
       </list>
