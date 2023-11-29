@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba055ce5-2f58-49bd-a127-0cafa100bed0" name="Changes" comment="feat: finishi imlementation of jwt in frontend and add sql script and refactor some changes" />
+    <list default="true" id="ba055ce5-2f58-49bd-a127-0cafa100bed0" name="Changes" comment="feat: finishi imlementation of jwt in frontend and add sql script and refactor some changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/frontend-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/frontend-impl/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
